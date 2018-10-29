@@ -8,5 +8,7 @@ fun main(args: Array<String>) = try {
     println("Big error in program. Self-destruction started: " + e.toString())
 } finally {
     println("Press enter to continue")
+
+
     System.`in`.read()
 }
